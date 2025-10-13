@@ -42,7 +42,7 @@ svg {
   width: 100vw;
 
   color: #0c2340;
-  -webkit-text-stroke: calc(0.1vh + 0.1vw) white;
+  -webkit-text-stroke: calc(0.25vh + 0.25vw) white;
   text-align: center;
   font-family: "Agency fb";
   font-weight: bold;
