@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Indivisible";
+  src: url("./IndivisibleWebVF.woff2");
+}
+
+@font-face {
+  font-family: "Tungsten";
+  src: url("./Tungsten-Semibold.woff2");
+}
+
+@font-face {
+  font-family: "Assiduous";
+  src: url("./Assiduous.ttf");
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-family: "Indivisible", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+form {
+  width: calc(100vw / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+form * {
+  font-family: "Indivisible", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#jersey {
+  width: 20vw;
+  height: 50vw;
+  background-image: url("../jerseys/INDStaBack.png");
+  background-size: cover;
+  background-position: center top;
+}
+
+svg {
+  width: 20vw;
+  margin-top: 6vw;
+  margin-left: 2.5vw;
+  font-size: 2vw;
+}
+
+#name,
+.name {
+  width: 20vw;
+
+  fill: #0c2340;
+  font-family: "Tungsten";
+  font-size: 6vw;
+  letter-spacing: -1px;
+}
+
+#number {
+  position: absolute;
+  top: 1.5vw;
+
+  width: 20vw;
+
+  color: #0c2340;
+  -webkit-text-stroke: 1px white;
+  text-align: center;
+  font-family: "Agency fb";
+  font-weight: bold;
+  font-size: 10vw;
+}
+
+.jerseySide {
+  width: 20vw;
+  height: 50vw;
+
+  position: relative;
+  top: 0;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#leftSide {
+  background-position: left top;
+  left: 0;
+  margin-top: calc(-1 * 21.3vw);
+}
+
+#rightSide {
+  background-position: right top;
+  right: 0;
+  margin-top: -50vw;
+}

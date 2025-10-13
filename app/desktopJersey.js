@@ -1,0 +1,39 @@
+const jerseyInfo = {
+    //"jersey" : [Font Family, number color, number backdrop, name color, background]
+    "INDAssBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
+    "INDIcoBack": ["Agency FB", "#ffd520", "#ffffff", "#ffd520","#0c2340"],
+    "INDStaBack": ["Agency FB", "#0c2340", "#ffffff", "#0c2340","#ffd520"],
+    "OKCAssBack": ["Assiduous", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
+    "OKCIcoBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
+    "OKCStaBack": ["Assiduous", "#007dc3", "#ffffff", "#ffffff", "#ef3b24"],
+}
+
+const nameDisplay = document.getElementById("name");
+const numberDisplay = document.getElementById("number");
+
+//#INDIcoBackHiggins-11
+
+let jerseyData = window.location.hash.replace('#', '');
+console.log(jerseyData);
+
+let dash = jerseyData.indexOf("-");
+let dash1 = dash + 1;
+
+let jerseyType = jerseyData.slice(0, 10);
+let name = jerseyData.slice(10, dash);
+let number = jerseyData.slice(dash1);
+
+document.body.style.backgroundColor = jerseyInfo[jerseyType][4];
+
+document.body.style.backgroundImage = (`url('./jerseys/${jerseyType}.png`);
+document.getElementById("leftSide").style.backgroundImage = (`url('./jerseys/${jerseyType.slice(0,6)}Left.png`);
+document.getElementById("rightSide").style.backgroundImage = (`url('./jerseys/${jerseyType.slice(0,6)}Right.png`);
+
+nameDisplay.style.fill = jerseyInfo[jerseyType][3];
+
+numberDisplay.style.fontFamily = jerseyInfo[jerseyType][0];
+numberDisplay.style.color = jerseyInfo[jerseyType][1];
+numberDisplay.style.webkitTextStrokeColor = jerseyInfo[jerseyType][2]
+
+nameDisplay.innerHTML = name;
+numberDisplay.innerHTML = number;

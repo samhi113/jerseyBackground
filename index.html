@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jersey Designer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <form>
+      <label for="jerseyType">Jersey Type</label>
+      <select name="jerseyType" id="jerseyType">
+        <option value="default">Pick A Jersey</option>
+        <option value="INDAssBack">IND - Association</option>
+        <option value="INDIcoBack">IND - Icon</option>
+        <option value="INDStaBack">IND - Statement</option>
+        <option value="OKCAssBack">OKC - Association</option>
+        <option value="OKCIcoBack">OKC - Icon</option>
+      </select>
+
+      <label for="jerseyNameInput">Name on Jersey</label>
+      <input type="text" name="jerseyNameInput" placeholder="Last name..." id="jerseyNameInput" />
+
+      <label for="jerseyNumberInput">Number</label>
+      <input type="number" name="jerseyNumberInput" placeholder="Number..." id="jerseyNumberInput" />
+
+      <button id="submit" type="button">SUBMIT</button>
+
+      <a id="mobile">Mobile</a>
+      <a id="desktop">Desktop</a>
+    </form>
+    <div id="jersey">
+      <svg style="max-width: 15vw; max-height: 15vw" viewBox="0 0 400 400" scale="2.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path id="textWrap" fill="none" stroke="none" d="M100.5,400.5 v-200 c0-55.23,44.77-100,100-100 h0 c55.23,0,100,44.77,100,100 v200"></path>
+        <text class="name" text-anchor="middle">
+          <textPath xlink:href="#textWrap" id="name" startOffset="50%">YOUR&nbsp;TEXT&nbsp;HERE</textPath>
+        </text>
+      </svg>
+      <p id="number">1</p>
+      <div id="leftSide" class="jerseySide"></div>
+      <div id="rightSide" class="jerseySide"></div>
+    </div>
+  </body>
+  <script src="app/app.js"></script>
+</html>
