@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: "Agency FB";
+  src: url("./agencyfb_reg.ttf");
+}
+
+@font-face {
   font-family: "Assiduous";
   src: url("./Assiduous.ttf");
 }
