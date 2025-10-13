@@ -3,9 +3,10 @@ const jerseyInfo = {
     "INDAssBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "INDIcoBack": ["Agency FB", "#ffd520", "#ffffff", "#ffd520","#0c2340"],
     "INDStaBack": ["Agency FB", "#0c2340", "#ffffff", "#0c2340","#ffd520"],
+    "INDCitBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "OKCAssBack": ["Assiduous", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
     "OKCIcoBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
-    "OKCStaBack": ["Assiduous", "#007dc3", "#ffffff", "#ffffff", "#ef3b24"],
+    "OKCCitBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
 }
 
 const nameDisplay = document.getElementById("name");

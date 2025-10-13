@@ -10,18 +10,28 @@ const jerseyInfo = {
     "INDAssBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "INDIcoBack": ["Agency FB", "#ffd520", "#ffffff", "#ffd520","#0c2340"],
     "INDStaBack": ["Agency FB", "#0c2340", "#ffffff", "#0c2340","#ffd520"],
+    "INDCitBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "OKCAssBack": ["Assiduous", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
     "OKCIcoBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
-    "OKCStaBack": ["Assiduous", "#007dc3", "#ffffff", "#ffffff", "#ef3b24"],
+    "OKCCitBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
 }
 
-/*for (let i = 1; i < allJerseyTypes.length; i++) {
+for (let i = 1; i < allJerseyTypes.length; i++) {
   const element = allJerseyTypes[i];
-  const elementName = element.innerHTML;
+  const elementName = element.value.trim(); // safer than innerHTML
 
-  element.style.color = jerseyInfo[elementName][3];
-  element.style.backgroundColor = jerseyInfo[elementName][4];
-} */
+  const info = jerseyInfo[elementName];
+  if (!info) {
+    console.warn(`No jersey info found for: ${elementName}`);
+    continue;
+  }
+
+  const [fontFamily, numberColor, numberBackdrop, nameColor, background] = info;
+
+  element.style.fontFamily = fontFamily;
+  element.style.color = nameColor;
+  element.style.backgroundColor = background;
+}
 
 document.getElementById("submit").addEventListener("click", (event) => {
   event.preventDefault();
@@ -31,7 +41,7 @@ document.getElementById("submit").addEventListener("click", (event) => {
   if (jerseyType == "default") {
     alert("Pick a jersey type to load!")
   } else {
-    document.getElementById("jersey").style.backgroundImage = (`url('./jerseys/${jerseyType}.png`);
+    document.getElementById("jersey").style.backgroundImage = (`url('./jerseys/${jerseyType}.png'), linear-gradient(0deg, ${jerseyInfo[jerseyType][4]} 0%, ${jerseyInfo[jerseyType][4]} 100%)`);
     document.getElementById("leftSide").style.backgroundImage = (`url('./jerseys/${jerseyType.slice(0,6)}Left.png`);
     document.getElementById("rightSide").style.backgroundImage = (`url('./jerseys/${jerseyType.slice(0,6)}Right.png`);
         
@@ -46,6 +56,5 @@ document.getElementById("submit").addEventListener("click", (event) => {
 
     nameDisplay.innerHTML = name;
     numberDisplay.innerHTML = number;
-    document.getElementById("mobile").setAttribute("href", `mobile.html#${jerseyType}${name}-${number}`)
-    document.getElementById("desktop").setAttribute("href", `desktop.html#${jerseyType}${name}-${number}`)
+    document.getElementById("desktop").setAttribute("href", `fullScreen.html#${jerseyType}${name}-${number}`)
 });
