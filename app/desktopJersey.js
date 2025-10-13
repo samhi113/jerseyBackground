@@ -36,5 +36,32 @@ numberDisplay.style.fontFamily = jerseyInfo[jerseyType][0];
 numberDisplay.style.color = jerseyInfo[jerseyType][1];
 numberDisplay.style.webkitTextStrokeColor = jerseyInfo[jerseyType][2]
 
-nameDisplay.innerHTML = name;
+console.log(name.indexOf("%"))
+
+function fixName() {
+    try {
+        let space = name.indexOf("%");
+        if (space === -1) {
+            nameDisplay.innerHTML = name;
+            console.log(name);
+            return;
+        } else if (space === 0) {
+            name = name.slice(space + 3);
+        }
+
+        if (name.slice(space, space + 3) === "%20") {
+            name = name.slice(0, space) + " " + name.slice(space + 3);
+        }
+        
+        fixName(); // Recursive call until all % are replaced
+    } catch (error) {
+        nameDisplay.innerHTML = name;
+        console.warn(error);
+        console.log(name);
+        return;
+    }
+}
+
+fixName();
+
 numberDisplay.innerHTML = number;

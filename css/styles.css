@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Agency FB";
-  src: url("./agencyfb_reg.ttf");
+  src: url("./AGENCYR.TTF");
 }
 
 @font-face {
@@ -71,14 +71,13 @@ option:first-of-type {
   border-radius: 0.25vw 0.25vw 0 0;
 }
 
-option:last-child
-option:last-of-type {
+option:last-child option:last-of-type {
   border-radius: 0 0 0.25vw 0.25vw;
 }
 
-
-
-select, input, button {
+select,
+input,
+button {
   min-height: 2vh;
   height: fit-content;
   width: 50%;

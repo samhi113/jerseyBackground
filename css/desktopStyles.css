@@ -1,6 +1,16 @@
 @font-face {
+  font-family: "Indivisible";
+  src: url("./IndivisibleWebVF.woff2");
+}
+
+@font-face {
   font-family: "Tungsten";
   src: url("./Tungsten-Semibold.woff2");
+}
+
+@font-face {
+  font-family: "Agency FB";
+  src: url("./AGENCYR.TTF");
 }
 
 @font-face {
