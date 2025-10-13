@@ -56,5 +56,5 @@ document.getElementById("submit").addEventListener("click", (event) => {
 
     nameDisplay.innerHTML = name;
     numberDisplay.innerHTML = number;
-    document.getElementById("desktop").setAttribute("href", `fullScreen.html#${jerseyType}${name}-${number}`)
+    document.getElementById("fullScreen").setAttribute("href", `fullScreen.html#${jerseyType}${name}-${number}`)
 });
