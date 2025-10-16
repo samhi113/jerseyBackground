@@ -10,7 +10,7 @@ const jerseyInfo = {
     "ATLAssBack": ["Knicks", "#c8102e", "#ffcc00", "#c8102e","#eeeeee"],
     "ATLIcoBack": ["Knicks", "#ffffff", "#ffcc00", "#ffffff","#c8102e"],
     "ATLStaBack": ["Knicks", "#ffcc00", "#ffffff", "#ffcc00","#111111"],
-    "ATLCitBack": ["Futura", "#eeeeee", "#e99b7c", "#eeeeee","#222222"],
+    "ATLCitBack": ["Futura1", "#eeeeee", "#e99b7c", "#eeeeee","#222222"],
     "BOSAssBack": ["Celtics", "#007d28", "transparent", "#007d28","#eeeeee"],
     "BOSIcoBack": ["Celtics", "#eeeeee", "transparent", "#eeeeee","#007d28"],
     "BOSStaBack": ["Celtics", "#007d28", "transparent", "#007d28","#000000"],
