@@ -6,14 +6,14 @@ const numberDisplay = document.getElementById("number");
 const allJerseyTypes = document.querySelectorAll("option");
 
 const jerseyInfo = {
-    //"jersey" : [Font Family, number color, number backdrop, name color, background]
-    "INDAssBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
-    "INDIcoBack": ["Agency FB", "#ffd520", "#ffffff", "#ffd520","#0c2340"],
-    "INDStaBack": ["Agency FB", "#0c2340", "#ffffff", "#0c2340","#ffd520"],
-    "INDCitBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
-    "OKCAssBack": ["Assiduous", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
-    "OKCIcoBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
-    "OKCCitBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
+    //"jersey" : [name font, number color, number backdrop, name color, background]
+    "INDAssBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
+    "INDIcoBack": [["Agency FB", "Agency1"], "#ffd520", "#ffffff", "#ffd520","#0c2340"],
+    "INDStaBack": [["Agency FB", "Agency1"], "#0c2340", "#ffffff", "#0c2340","#ffd520"],
+    "INDCitBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
+    "OKCAssBack": ["Assiduous1", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
+    "OKCIcoBack": ["Assiduous1", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
+    "OKCCitBack": ["Assiduous1", "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
 }
 
 for (let i = 1; i < allJerseyTypes.length; i++) {
@@ -56,5 +56,5 @@ document.getElementById("submit").addEventListener("click", (event) => {
 
     nameDisplay.innerHTML = name;
     numberDisplay.innerHTML = number;
-    document.getElementById("fullScreen").setAttribute("href", `fullScreen.html#${jerseyType}${name}-${number}`)
+    document.getElementById("fullScreen").setAttribute("href", `fullScreen.html#${jerseyType}${name}}${number}`)
 });

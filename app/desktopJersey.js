@@ -1,12 +1,12 @@
 const jerseyInfo = {
     //"jersey" : [Font Family, number color, number backdrop, name color, background]
-    "INDAssBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
-    "INDIcoBack": ["Agency FB", "#ffd520", "#ffffff", "#ffd520","#0c2340"],
-    "INDStaBack": ["Agency FB", "#0c2340", "#ffffff", "#0c2340","#ffd520"],
-    "INDCitBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
-    "OKCAssBack": ["Assiduous", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
-    "OKCIcoBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
-    "OKCCitBack": ["Assiduous", "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
+    "INDAssBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
+    "INDIcoBack": [["Agency FB", "Agency1"], "#ffd520", "#ffffff", "#ffd520","#0c2340"],
+    "INDStaBack": [["Agency FB", "Agency1"], "#0c2340", "#ffffff", "#0c2340","#ffd520"],
+    "INDCitBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
+    "OKCAssBack": ["Assiduous1", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
+    "OKCIcoBack": ["Assiduous1", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
+    "OKCCitBack": ["Assiduous1", "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
 }
 
 const nameDisplay = document.getElementById("name");
@@ -17,12 +17,12 @@ const numberDisplay = document.getElementById("number");
 let jerseyData = window.location.hash.replace('#', '');
 console.log(jerseyData);
 
-let dash = jerseyData.indexOf("-");
-let dash1 = dash + 1;
+let nameEnd = jerseyData.indexOf("}");
+let nameEnd1 = nameEnd + 1;
 
 let jerseyType = jerseyData.slice(0, 10);
-let name = jerseyData.slice(10, dash);
-let number = jerseyData.slice(dash1);
+let name = jerseyData.slice(10, nameEnd);
+let number = jerseyData.slice(nameEnd1);
 
 document.body.style.backgroundColor = jerseyInfo[jerseyType][4];
 
