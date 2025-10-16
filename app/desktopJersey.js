@@ -1,5 +1,17 @@
 const jerseyInfo = {
     //"jersey" : [Font Family, number color, number backdrop, name color, background]
+    "ATLAssBack": ["Knicks", "#c8102e", "#ffcc00", "#c8102e","#eeeeee"],
+    "ATLIcoBack": ["Knicks", "#ffffff", "#ffcc00", "#ffffff","#c8102e"],
+    "ATLStaBack": ["Knicks", "#ffcc00", "#ffffff", "#ffcc00","#111111"],
+    "ATLCitBack": ["Futura", "#eeeeee", "#e99b7c", "#eeeeee","#222222"],
+    "BOSAssBack": ["Celtics", "#007d28", "transparent", "#007d28","#eeeeee"],
+    "BOSIcoBack": ["Celtics", "#eeeeee", "transparent", "#eeeeee","#007d28"],
+    "BOSStaBack": ["Celtics", "#007d28", "transparent", "#007d28","#000000"],
+    "BOSCitBack": ["Celtics", "#c89c4b", "#111111", "#111111","#eeeeee"],
+    "BKNAssBack": ["Trailblazers", "#111111", "transparent", "#111111","#eeeeee"],
+    "BKNIcoBack": ["Trailblazers", "#eeeeee", "transparent", "#eeeeee","#080808"],
+    "BKNStaBack": ["Trailblazers", "#111111", "#eeeeee", "#eeeeee","#111111"],
+    "BKNCitBack": ["Trailblazers", "#eeeeee", "transparent", "#eeeeee","#080808"],
     "INDAssBack": ["Agency FB", "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "INDIcoBack": ["Agency FB", "#ffd520", "#ffffff", "#ffd520","#0c2340"],
     "INDStaBack": ["Agency FB", "#0c2340", "#ffffff", "#0c2340","#ffd520"],

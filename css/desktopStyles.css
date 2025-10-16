@@ -9,6 +9,26 @@
 }
 
 @font-face {
+  font-family: "Futura";
+  src: url("./futura.ttf");
+}
+
+@font-face {
+  font-family: "Knicks";
+  src: url("./NBAKNICK.TTF");
+}
+
+@font-face {
+  font-family: "Celtics";
+  src: url("./NBACELTI.TTF");
+}
+
+@font-face {
+  font-family: "Trailblazers";
+  src: url("./NBATRAIL.TTF");
+}
+
+@font-face {
   font-family: "Agency FB";
   src: url("./AGENCYR.TTF");
 }

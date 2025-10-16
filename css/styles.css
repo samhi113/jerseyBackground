@@ -9,6 +9,26 @@
 }
 
 @font-face {
+  font-family: "Futura";
+  src: url("./futura.ttf");
+}
+
+@font-face {
+  font-family: "Knicks";
+  src: url("./NBAKNICK.TTF");
+}
+
+@font-face {
+  font-family: "Celtics";
+  src: url("./NBACELTI.TTF");
+}
+
+@font-face {
+  font-family: "Trailblazers";
+  src: url("./NBATRAIL.TTF");
+}
+
+@font-face {
   font-family: "Agency FB";
   src: url("./AGENCYR.TTF");
 }
@@ -91,7 +111,7 @@ button {
 #jersey {
   width: 20vw;
   height: 50vw;
-  background-image: url("../jerseys/INDStaBack.png");
+  background-image: url("../jerseys/BKNAssBack.png");
   background-size: cover;
   background-position: center top;
 }
@@ -139,12 +159,14 @@ svg {
 }
 
 #leftSide {
+  background-image: url("../jerseys/BKNAssLeft.png");
   background-position: left top;
   left: 0;
   margin-top: calc(-1 * 21.3vw);
 }
 
 #rightSide {
+  background-image: url("../jerseys/BKNAssRight.png");
   background-position: right top;
   right: 0;
   margin-top: -50vw;
