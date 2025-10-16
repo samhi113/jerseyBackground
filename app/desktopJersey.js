@@ -12,14 +12,21 @@ const jerseyInfo = {
     "BKNIcoBack": ["Trailblazers", "#eeeeee", "transparent", "#eeeeee","#080808"],
     "BKNStaBack": ["Trailblazers", "#111111", "#eeeeee", "#eeeeee","#111111"],
     "BKNCitBack": ["Trailblazers", "#eeeeee", "transparent", "#eeeeee","#080808"],
+    "CHAAssBack": ["Hornets", "#00798d", "#170860", "#00798d","#ffffff"],
+    "CHAIcoBack": ["Hornets", "#ffffff", "#170860", "#ffffff","#00798d"],
+    "CHAStaBack": ["Hornets", "#00798d", "#eeeeee", "#eeeeee","#170860"],
+    "CHACitBack": ["Hornets", "#3322bb", "#ffffff", "#3322bb","#ffdd22"],
+    "CHIAssBack": ["Bulls", "#ce0028", "#000000", "#ce0028","#ffffff"],
+    "CHIIcoBack": ["Bulls", "#000000", "#ffffff", "#ffffff","#ce0028"],
+    "CHIStaBack": ["Bulls", "#ce0028", "#ffffff", "#ffffff","#000000"],
+    "CHICitBack": ["Bulls", "#3322bb", "#ffffff", "#3322bb","#ffdd22"],
     "INDAssBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "INDIcoBack": [["Agency FB", "Agency1"], "#ffd520", "#ffffff", "#ffd520","#0c2340"],
     "INDStaBack": [["Agency FB", "Agency1"], "#0c2340", "#ffffff", "#0c2340","#ffd520"],
     "INDCitBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
-    "OKCAssBack": ["Assiduous1", "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
-    "OKCIcoBack": ["Assiduous1", "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
-    "OKCCitBack": ["Assiduous1", "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
-
+    "OKCAssBack": [["Assiduous", "Assiduous1"], "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
+    "OKCIcoBack": [["Assiduous", "Assiduous1"], "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
+    "OKCCitBack": [["Assiduous", "Assiduous1"], "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
 }
 
 const nameDisplay = document.getElementById("name");
