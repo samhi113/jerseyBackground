@@ -1,21 +1,24 @@
 @font-face {
-  font-family: "Indivisible";
-  src: url("./IndivisibleWebVF.woff2");
+  font-family: "Indivisible1";
+  src: local("Indivisible1"),
+  url("./IndivisibleWebVF.woff2");
 }
 
 @font-face {
-  font-family: "Tungsten";
-  src: url("./Tungsten-Semibold.woff2");
+  font-family: "Tungsten1";
+  src: local("Tungsten1"),
+  url("./Tungsten-Semibold.woff2");
 }
 
 @font-face {
-  font-family: "Agency FB";
-  src: url("./AGENCYR.TTF");
+  font-family: "Agency1";
+  src: local("Agency FB"), url("./AGENCYR.TTF"),;
 }
 
 @font-face {
-  font-family: "Assiduous";
-  src: url("./Assiduous.ttf");
+  font-family: "Assiduous1";
+  src: local("Assiduous1"),
+  url("./Assiduous.ttf");
 }
 
 body {
@@ -40,23 +43,24 @@ svg {
 .name {
   width: 100vw;
   fill: #0c2340;
-  font-family: "Tungsten";
+  font-family: "Tungsten1";
   font-size: calc(10vh - 1.5vw);
   letter-spacing: -1px;
 }
 
 #number {
   position: absolute;
-  top: -5vh;
+  top: 15vh;
 
   width: 100vw;
 
   color: #0c2340;
   -webkit-text-stroke: calc(0.25vh + 0.25vw) white;
   text-align: center;
-  font-family: "Agency fb";
+  font-family: "Agency FB", "Agency1";
   font-weight: bold;
   font-size: calc(15vh + 15vw);
+  line-height: 0;
 }
 
 .jerseySide {
