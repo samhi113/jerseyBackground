@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Indivisible1";
+  src: local("Indivisible"), url("./IndivisibleWebVF.woff2");
+}
+
+@font-face {
+  font-family: "Tungsten1";
+  src: local("Tungsten"), url("./Tungsten-Semibold.woff2");
+}
+
+@font-face {
+  font-family: "Futura1";
+  src: local("Futura"), url("./futura.ttf");
+}
+
+@font-face {
+  font-family: "Knicks";
+  src: url("./NBAKNICK.TTF");
+}
+
+@font-face {
+  font-family: "Celtics";
+  src: url("./NBACELTI.TTF");
+}
+
+@font-face {
+  font-family: "Trailblazers";
+  src: url("./NBATRAIL.TTF");
+}
+
+@font-face {
+  font-family: "Hornets";
+  src: url("./NBA_Hornets_Buzz_City.ttf");
+}
+
+@font-face {
+    font-family: "Bulls";
+    src: url("./NBACELTI.TTF");
+}
+
+@font-face {
+  font-family: "Agency1";
+  src: local("Agency FB"), url("./AGENCYR.TTF");
+}
+
+@font-face {
+  font-family: "Assiduous1";
+  src: local("Assiduous"), url("./Assiduous.ttf");
+}
