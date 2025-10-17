@@ -39,6 +39,16 @@
 }
 
 @font-face {
+  font-family: "Cavaliers";
+  src: url("./NBA\ Cavaliers.ttf");
+}
+
+@font-face {
+  font-family: "TW Cen";
+  src: url("./TCB_____.TTF");
+}
+
+@font-face {
   font-family: "Agency1";
   src: local("Agency FB"), url("./AGENCYR.TTF");
 }
