@@ -6,7 +6,7 @@ body {
   overflow: hidden;
 
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center top;
 }
 
@@ -19,7 +19,7 @@ svg {
 #name,
 .name {
   width: 100vw;
-  fill: #0c2340;
+  fill: #000000;
   font-family: "Tungsten1";
   font-size: calc(10vh - 1.5vw);
   letter-spacing: -1px;
@@ -32,10 +32,10 @@ svg {
 
   width: 100vw;
 
-  color: #0c2340;
+  color: #000000;
   -webkit-text-stroke: calc(0.25vh + 0.25vw) white;
   text-align: center;
-  font-family: "Agency FB", "Agency1";
+  font-family: "Trailblazers";
   font-weight: bold;
   font-size: calc(15vh + 15vw);
   line-height: 0;

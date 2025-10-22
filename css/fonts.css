@@ -34,8 +34,8 @@
 }
 
 @font-face {
-    font-family: "Bulls";
-    src: url("./NBACELTI.TTF");
+  font-family: "Bulls";
+  src: url("./NBACELTI.TTF");
 }
 
 @font-face {
@@ -44,8 +44,18 @@
 }
 
 @font-face {
+  font-family: "Mavericks";
+  src: url("./NBAMAVER.TTF");
+}
+
+@font-face {
   font-family: "TW Cen";
   src: url("./TCB_____.TTF");
+}
+
+@font-face {
+  font-family: "Nuggets";
+  src: url("./NBANUGGE.TTF");
 }
 
 @font-face {
