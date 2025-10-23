@@ -37,14 +37,17 @@ const jerseyInfo = {
     "DALStaBack": ["Mavericks", "#ffffff", "transparent", "#ffffff","#081b3c"],
     "DALCitBack": [["Futura PT", "Futura", "Futura1"], "#aaaaaa", "#1752b3", "#aaaaaa","#222222"],
     "DALClaBack": [["TW Cen MT", "TW Cen"], "#ffffff", "#1752b3", "#ffffff","#008733"],
-    "DENCitBack": ["Nuggets", "#ffffff", "#111111", "#ffffff","#000000"],
+    "DENAssBack": ["Nuggets", "#0d2240", "#ffc627", "#8c1e2e","#eeeeee"],
+    "DENIcoBack": ["Nuggets", "#ffffff", "#8c1e2e", "#ffc627","#0d2240"],
+    "DENStaBack": ["Nuggets", "#ffc627", "#8c1e2e", "#ffc627","#1a428a"],
+    "DENCitBack": ["Nuggets", "#ffffff", "#111111", "#ffffff","#222222"],
     "INDAssBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "INDIcoBack": [["Agency FB", "Agency1"], "#ffd520", "#ffffff", "#ffd520","#0c2340"],
     "INDStaBack": [["Agency FB", "Agency1"], "#0c2340", "#ffffff", "#0c2340","#ffd520"],
     "INDCitBack": [["Agency FB", "Agency1"], "#0c2340", "#ffd520", "#0c2340","#ffffff"],
     "OKCAssBack": [["Assiduous", "Assiduous1"], "#007dc3", "#ef3b24", "#007dc3", "#ffffff"],
     "OKCIcoBack": [["Assiduous", "Assiduous1"], "#ffffff", "#ef3b24", "#ffffff", "#007dc3"],
-    "OKCCitBack": [["Assiduous", "Assiduous1"], "#ffffff", "#ef3b24", "#ffffff", "#0d1d46"],
+    "OKCCitBack": [["Assiduous", "Assiduous1"], "#ffffff", "#ef3b24", "#ffffff", "#002d62"],
 }
 
 for (let i = 1; i < allJerseyTypes.length; i++) {

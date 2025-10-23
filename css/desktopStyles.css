@@ -51,6 +51,10 @@ svg {
   background-repeat: no-repeat;
 }
 
+#topSide {
+  background-position: center top;
+}
+
 #leftSide {
   background-position: left top;
   left: 0;
