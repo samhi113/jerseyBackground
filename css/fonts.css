@@ -59,8 +59,23 @@
 }
 
 @font-face {
+  font-family: "Pistons";
+  src: url("./NBA\ Pistons.ttf");
+}
+
+@font-face {
+  font-family: "Alata";
+  src: url("./Alata-Regular.ttf");
+}
+
+@font-face {
   font-family: "Agency1";
   src: local("Agency FB"), url("./AGENCYR.TTF");
+}
+
+@font-face {
+  font-family: "Intercom";
+  src: url("./Intercom_Semibold.otf");
 }
 
 @font-face {

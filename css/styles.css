@@ -91,13 +91,13 @@ svg {
 
   fill: #000;
   font-family: "Tungsten1";
-  font-size: calc(3vh + 3vw);
+  font-size: calc(2.5vh + 2.5vw);
   letter-spacing: -1px;
 }
 
 #number {
   position: absolute;
-  margin-top: calc((-1 * 5vw) - 1vh);
+  margin-top: calc((-1 * 5vw) - 2vh);
 
   width: 20.5vw;
 
@@ -106,7 +106,7 @@ svg {
   text-align: center;
   font-family: "Trailblazers";
   font-weight: bold;
-  font-size: 8vw;
+  font-size: 7vw;
   line-height: 0;
 }
 
