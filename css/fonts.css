@@ -79,6 +79,36 @@
 }
 
 @font-face {
+  font-family: "Lakers";
+  src: url("./NBALAKER.TTF");
+}
+
+@font-face {
+  font-family: "Grizzlies";
+  src: url("./NBAGRIZZ.TTF");
+}
+
+@font-face {
+  font-family: "Heat";
+  src: url("./NBAHEAT_.TTF");
+}
+
+@font-face {
+  font-family: "Bucks";
+  src: url("./NBA\ Milwaukee\ Bucks\ 2015.otf");
+}
+
+@font-face {
+  font-family: "Starz";
+  src: url("./starz2016.ttf");
+}
+
+@font-face {
+  font-family: "Timberwolves";
+  src: url("./NBATIMBE.TTF");
+}
+
+@font-face {
   font-family: "Assiduous1";
   src: local("Assiduous"), url("./Assiduous.ttf");
 }
