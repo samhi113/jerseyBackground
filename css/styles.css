@@ -102,7 +102,7 @@ svg {
   width: 20.5vw;
 
   color: #000;
-  -webkit-text-stroke: calc(0.05vw + 0.05vh) transparent;
+  -webkit-text-stroke: calc(0.1vw + 0.1vh) transparent;
   text-align: center;
   font-family: "Trailblazers";
   font-weight: bold;
