@@ -114,6 +114,11 @@
 }
 
 @font-face {
+  font-family: "Pelicans";
+  src: url("./Stadium\ 1946.otf");
+}
+
+@font-face {
   font-family: "Assiduous1";
   src: local("Assiduous"), url("./Assiduous.ttf");
 }

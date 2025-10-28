@@ -102,7 +102,7 @@ svg {
   width: 20.5vw;
 
   color: #000;
-  -webkit-text-stroke: 1px transparent;
+  -webkit-text-stroke: calc(0.05vw + 0.05vh) transparent;
   text-align: center;
   font-family: "Trailblazers";
   font-weight: bold;
@@ -126,6 +126,7 @@ svg {
   background-image: url("../jerseys/BKNAssTop.png");
   background-position: center top;
   margin-top: -21.4vw;
+  z-index: 99;
 }
 
 #leftSide {
