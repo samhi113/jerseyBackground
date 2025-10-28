@@ -104,6 +104,11 @@
 }
 
 @font-face {
+  font-family: "Purple_Digits";
+  src: url("./purple_digits.ttf");
+}
+
+@font-face {
   font-family: "Timberwolves";
   src: url("./NBATIMBE.TTF");
 }
