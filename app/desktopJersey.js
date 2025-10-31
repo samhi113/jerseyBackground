@@ -15,7 +15,7 @@ const jerseyInfo = {
     "CHAAssBack": ["Hornets", "#00798d", "#170860", "#00798d","#ffffff"],
     "CHAIcoBack": ["Hornets", "#ffffff", "#170860", "#ffffff","#00798d"],
     "CHAStaBack": ["Hornets", "#00798d", "#eeeeee", "#eeeeee","#170860"],
-    "CHACitBack": ["Hornets", "#3322bb", "#ffffff", "#3322bb","#ffdd22"],
+    "CHACitBack": ["Hornets", "#13193d", "#ffffff", "#13193d","#ffcc00"],
     "CHIAssBack": ["Bulls", "#ce0028", "#000000", "#ce0028","#ffffff"],
     "CHIIcoBack": ["Bulls", "#000000", "#ffffff", "#ffffff","#ce0028"],
     "CHIStaBack": ["Bulls", "#ce0028", "#ffffff", "#ffffff","#000000"],
@@ -96,6 +96,10 @@ const jerseyInfo = {
     "PHIStaBack": ["Knicks", "#f8f8f8", "#006bb7", "#f8f8f8","#ee104b"],
     "PHICitBack": ["Clarendon", "#eeeeee", "transparent", "#eeeeee","#003359"],
     "PHIClaBack": ["Sixers", "#ffffff", "#ef1549", "#ffffff","#071922"],
+    "PHXAssBack": ["Knicks", "#443377", "#dd5800", "#443377","#f8f8f8"],
+    "PHXIcoBack": ["Knicks", "#f8f8f8", "#dd5800", "#f8f8f8","#443377"],
+    "PHXStaBack": ["Knicks", "#f8f8f8", "#443377", "#f8f8f8","#222222"],
+    "PHXCitBack": ["Clarendon", "#eeeeee", "transparent", "#dd5800","#222222"],
 }
 
 const nameDisplay = document.getElementById("name");
