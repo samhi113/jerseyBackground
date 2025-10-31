@@ -103,10 +103,14 @@ const jerseyInfo = {
     "PHIStaBack": ["Knicks", "#f8f8f8", "#006bb7", "#f8f8f8","#ee104b"],
     "PHICitBack": ["Clarendon", "#eeeeee", "transparent", "#eeeeee","#003359"],
     "PHIClaBack": ["Sixers", "#ffffff", "#ef1549", "#ffffff","#071922"],
-    "PHXAssBack": ["Knicks", "#443377", "#dd5800", "#443377","#f8f8f8"],
-    "PHXIcoBack": ["Knicks", "#f8f8f8", "#dd5800", "#f8f8f8","#443377"],
-    "PHXStaBack": ["Knicks", "#f8f8f8", "#443377", "#f8f8f8","#222222"],
-    "PHXCitBack": ["Clarendon", "#eeeeee", "transparent", "#dd5800","#222222"],
+    "PHXAssBack": [["Suns", "Knicks"], "#443377", "#dd5800", "#443377","#f8f8f8"],
+    "PHXIcoBack": [["Suns", "Knicks"], "#f8f8f8", "#dd5800", "#f8f8f8","#443377"],
+    "PHXStaBack": [["Suns", "Knicks"], "#f8f8f8", "#443377", "#f8f8f8","#222222"],
+    "PHXCitBack": [["Suns", "Knicks"], "#eeeeee", "transparent", "#dd5800","#222222"],
+    "PORAssBack": ["Trailblazers", "#443377", "#dd5800", "#443377","#f8f8f8"],
+    "PORIcoBack": ["Trailblazers", "#f8f8f8", "#dd5800", "#f8f8f8","#443377"],
+    "PORStaBack": ["Trailblazers", "#f8f8f8", "#443377", "#f8f8f8","#222222"],
+    "PORCitBack": ["Trailblazers", "#eeeeee", "transparent", "#dd5800","#222222"],
 }
 
 for (let i = 1; i < allJerseyTypes.length; i++) {
