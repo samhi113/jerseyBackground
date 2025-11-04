@@ -108,6 +108,7 @@ const jerseyInfo = {
     "SACIcoBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","#111111"],
     "SACStaBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","linear-gradient(90deg, #111 20%, #5b2783 100%)"],
     "SACCitBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","#18113b"],
+    
 }
 
 const nameDisplay = document.getElementById("name");
@@ -153,7 +154,7 @@ function fixName() {
             name = name.slice(0, space) + " " + name.slice(space + 3);
         }
         
-        fixName(); // Recursive call until all % are replaced
+        fixName();
     } catch (error) {
         nameDisplay.innerHTML = name;
         console.warn(error);
