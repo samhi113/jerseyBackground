@@ -128,7 +128,6 @@
   src: local("Assiduous"), url("./Assiduous.ttf");
 }
 
-
 @font-face {
   font-family: "Mally";
   src: url("./Mally-CondensedBoldItalic.woff2");
@@ -147,4 +146,9 @@
 @font-face {
   font-family: "Sixers";
   src: url("./NBA\ 76ers.ttf");
+}
+
+@font-face {
+  font-family: "Kings";
+  src: url("./Kings.ttf");
 }

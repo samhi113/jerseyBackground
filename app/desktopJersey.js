@@ -100,6 +100,14 @@ const jerseyInfo = {
     "PHXIcoBack": [["Suns", "Knicks"], "#f8f8f8", "#dd5800", "#f8f8f8","#443377"],
     "PHXStaBack": [["Suns", "Knicks"], "#f8f8f8", "#443377", "#f8f8f8","#222222"],
     "PHXCitBack": [["Suns", "Knicks"], "#eeeeee", "transparent", "#dd5800","#222222"],
+    "PORAssBack": ["Trailblazers", "#222222", "#d00328", "#222222","#f8f8f8"],
+    "PORIcoBack": ["Trailblazers", "#f8f8f8", "#d00328", "#f8f8f8","#111111"],
+    "PORStaBack": ["Trailblazers", "#f8f8f8", "#222222", "#f8f8f8","#d00328"],
+    "PORCitBack": ["Trailblazers", "#f8f8f8", "#3fbcc0", "#f8f8f8","#222222"],
+    "SACAssBack": [["Kings", "Knicks"], "#111111", "#5b2783", "#111111","#f8f8f8"],
+    "SACIcoBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","#111111"],
+    "SACStaBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","linear-gradient(90deg, #111 20%, #5b2783 100%)"],
+    "SACCitBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","#18113b"],
 }
 
 const nameDisplay = document.getElementById("name");
