@@ -108,7 +108,14 @@ const jerseyInfo = {
     "SACIcoBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","#111111"],
     "SACStaBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","linear-gradient(90deg, #111 20%, #5b2783 100%)"],
     "SACCitBack": [["Kings", "Knicks"], "#f8f8f8", "#5b2783", "#f8f8f8","#18113b"],
-    
+    "SASAssBack": ["Knicks", "#111111", "#8D8E8E", "#111111","#eeeeee"],
+    "SASIcoBack": ["Knicks", "#eeeeee", "#8D8E8E", "#eeeeee","#111111"],
+    "SASStaBack": ["Knicks", "#111111", "#eeeeee", "#111111","#8D8E8E"],
+    "SASCitBack": ["Knicks", "#eeeeee", "#8D8E8E", "#eeeeee","#111111"],
+    "TORAssBack": ["Raptors", "#bd1b21", "#222222", "#bd1b21","#eeeeee"],
+    "TORIcoBack": ["Raptors", "#222222", "#eeeeee", "#222222","#bd1b21"],
+    "TORStaBack": ["Raptors", "#bd1b21", "#eeeeee", "#bd1b21","#222222"],
+    "TORCitBack": ["Raptors", "#bd1b21", "transparent", "#f8f8f8","#222222"],
 }
 
 const nameDisplay = document.getElementById("name");

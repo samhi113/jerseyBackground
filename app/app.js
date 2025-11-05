@@ -123,8 +123,7 @@ const jerseyInfo = {
     "TORIcoBack": ["Raptors", "#222222", "#eeeeee", "#222222","#bd1b21"],
     "TORStaBack": ["Raptors", "#bd1b21", "#eeeeee", "#bd1b21","#222222"],
     "TORCitBack": ["Raptors", "#bd1b21", "transparent", "#f8f8f8","#222222"],
-
-  }
+}
 
 for (let i = 1; i < allJerseyTypes.length; i++) {
   const element = allJerseyTypes[i];

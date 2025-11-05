@@ -152,3 +152,8 @@
   font-family: "Kings";
   src: url("./Kings.ttf");
 }
+
+@font-face {
+  font-family: "Raptors";
+  src: url("./TorontoNumbers.ttf");
+}
