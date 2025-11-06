@@ -115,7 +115,7 @@ const jerseyInfo = {
     "TORAssBack": ["Raptors", "#bd1b21", "#222222", "#bd1b21","#eeeeee"],
     "TORIcoBack": ["Raptors", "#222222", "#eeeeee", "#222222","#bd1b21"],
     "TORStaBack": ["Raptors", "#bd1b21", "#eeeeee", "#bd1b21","#222222"],
-    "TORCitBack": ["Raptors", "#bd1b21", "transparent", "#f8f8f8","#222222"],
+    "TORCitBack": [["Agency FB", "Agency1"], "#f8f8f8", "transparent", "#f8f8f8","#222222"],
 }
 
 const nameDisplay = document.getElementById("name");

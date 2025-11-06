@@ -119,10 +119,10 @@ const jerseyInfo = {
     "SASIcoBack": ["Knicks", "#eeeeee", "#8D8E8E", "#eeeeee","#111111"],
     "SASStaBack": ["Knicks", "#111111", "#eeeeee", "#111111","#8D8E8E"],
     "SASCitBack": ["Knicks", "#eeeeee", "#8D8E8E", "#eeeeee","#111111"],
-    "TORAssBack": ["Raptors", "#bd1b21", "#222222", "#bd1b21","#eeeeee"],
-    "TORIcoBack": ["Raptors", "#222222", "#eeeeee", "#222222","#bd1b21"],
-    "TORStaBack": ["Raptors", "#bd1b21", "#eeeeee", "#bd1b21","#222222"],
-    "TORCitBack": ["Raptors", "#bd1b21", "transparent", "#f8f8f8","#222222"],
+    "TORAssBack": [["Raptors", "Agency FB", "Agency1"], "#bd1b21", "#222222", "#bd1b21","#eeeeee"],
+    "TORIcoBack": [["Raptors", "Agency FB", "Agency1"], "#222222", "#eeeeee", "#222222","#bd1b21"],
+    "TORStaBack": [["Raptors", "Agency FB", "Agency1"], "#bd1b21", "#eeeeee", "#bd1b21","#222222"],
+    "TORCitBack": [["Agency FB", "Agency1"], "#f8f8f8", "transparent", "#f8f8f8","#222222"],
 }
 
 for (let i = 1; i < allJerseyTypes.length; i++) {
