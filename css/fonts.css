@@ -157,3 +157,13 @@
   font-family: "Raptors";
   src: url("./TorontoNumbers.ttf");
 }
+
+@font-face {
+  font-family: "Jazz";
+  src: url("./JazzNumbers.ttf");
+}
+
+@font-face {
+  font-family: "Electrotome";
+  src: url("./SF\ Electrotome\ Bold.ttf");
+}
