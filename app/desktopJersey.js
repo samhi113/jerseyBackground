@@ -120,10 +120,10 @@ const jerseyInfo = {
     "UTAIcoBack": [["Jazz", "Electrotome"], "#f8f8f8", "#7aa3d7", "#f8f8f8","#37236b"],
     "UTAStaBack": [["Jazz", "Electrotome"], "#f8f8f8", "transparent", "#f8f8f8","#222222"],
     "UTACitBack": ["Electrotome", "#f8f8f8", "transparent", "#f8f8f8","#111218"],
-    "WASAssBack": [["Jazz", "Electrotome"], "#e41134", "#eeeeee", "#e41134","#f8f8f8"],
-    "WASIcoBack": [["Jazz", "Electrotome"], "#00275c", "#f8f8f8", "#f8f8f8","#e41134"],
-    "WASStaBack": [["Jazz", "Electrotome"], "#f8f8f8", "#001144", "#f8f8f8","#00275c"],
-    "WASCitBack": ["Electrotome", "#f8f8f8", "#222222", "#f8f8f8","#d4aa6a"],
+    "WASAssBack": [["Capitol", "Wizards"], "#e41134", "#eeeeee", "#e41134","#f8f8f8"],
+    "WASIcoBack": [["Capitol", "Wizards"], "#00275c", "#f8f8f8", "#f8f8f8","#e41134"],
+    "WASStaBack": [["Capitol", "Wizards"], "#f8f8f8", "#001144", "#f8f8f8","#00275c"],
+    "WASCitBack": ["Wizards", "#f8f8f8", "#222222", "#f8f8f8","#d4aa6a"],
 }
 
 const nameDisplay = document.getElementById("name");

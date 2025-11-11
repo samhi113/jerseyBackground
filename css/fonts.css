@@ -167,3 +167,13 @@
   font-family: "Electrotome";
   src: url("./SF\ Electrotome\ Bold.ttf");
 }
+
+@font-face {
+  font-family: "Capitol";
+  src: url("./CapitolNumbers.ttf");
+}
+
+@font-face {
+  font-family: "Wizards";
+  src: url("./NBAWIZAR.TTF");
+}
